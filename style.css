@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ========================================= brinchi seksiya ==================================== */
+
+.first{
+background: url(./img/Untitled.png) no-repeat  ;
+background-size: cover;
+margin-top: -80px;
+}
+
+.first .navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between; 
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+.first .navbar .words ul{
+    display: flex;
+    list-style: none;
+
+}
+.first .navbar .words ul li{
+    margin-left: 15px;
+}
+.first .navbar .words ul li a{
+    text-decoration: none;
+    font-size: 21px;
+    color: #454545;
+}
+.first .navbar .words{
+    display: flex;
+}
+.first .navbar .words button{
+    margin-left: 20px;
+    padding: 5px 15px;
+    border-radius: 3px;
+    background-color: #de6d6e;
+    border: none;
+}
+
+.first .content .colsa{
+    margin-top: 80px;
+    padding-top: 220px;
+    margin-left: 600px;
+}
+.first .content .suz{
+    margin-top: 60px;
+    margin-left: 390px;
+    padding-bottom: 100px;
+}
+
+.first .content .suz h1{
+    font-size: 69px;
+    color: #ffffff;
+}
+.first .content .suz p{
+    font-size: 25px;
+    color: #ffffff;
+    padding-left: 100px;
+}
+
+
+/* ========================================================== ikkinchi seksiya========================= */
+
+.second{
+    background-color: #ffffff;
+    background-size: cover;
+}
+.second .suzlar .suz1{
+    margin-top: 50px;
+}
+.second .suzlar .suz2{
+    margin-bottom: 60px;
+}
+.second .suzlar .suz1 h1{
+    font-size: 45px;
+    color: #404040;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.second .suzlar .suz2 p{
+    font-size: 20px;
+    color: #636363;
+    text-align: center;
+}
+
+.second .round{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    border-bottom: 2px grey solid;
+}
+
+.second .nom{
+    display: flex;
+}
+
+.second .nom .three{
+    display: flex;
+    flex-direction: column;
+    height: 670px;
+    justify-content: space-around;
+    margin-left: 190px;
+}
+
+
+
+.second .nom .doc{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-top: 50px;
+    
+}
+
+
+.second .nom .doc h2{
+    font-size: 27px;
+    color: #404040;
+    margin-bottom: 20px;
+}
+.second .nom .doc p{
+    color: #8b8b8b;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+/* ============================================ uchinchi seksiya ========================================  */
+
+.fnish{
+  background: url(./img/Rectangle\ 1\ copy\ 2.png) no-repeat;
+  background-size: cover;
+}
+
+.fnish .letter{
+    display: flex;
+    margin-left: 100px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.fnish .letter .son h3{
+    font-size: 21px;
+    color: #aeaeae;
+    margin-bottom: 20px;
+    width: 105px;
+}
+.fnish .letter .son p{
+    font-size: 15px;
+    color: #8b8b8b;
+    text-align: left;
+}
+.fnish .letter .son{
+    margin-left: 100px;
+}
+
+.fnish{
+    display: flex;
+}
+
+.fnish .icon{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 55px;
+    padding-top: 50px;
+}
+
+.fnish .icon .ice{
+    margin-left: 20px;
+}
+
+.fnish .icon .wor p{
+    font-size: 15px;
+    color: #8b8b8b;
+    margin-left: 35px;
+}
+
+
+/* ====================== media 576px==================== */
+@media(max-width:576px){
+    .first .navbar{
+        display: block;
+        padding: 0;
+    }
+    .first .navbar .logo{
+        margin-left: 180px;
+    }
+    .first .navbar .words ul{
+        display: flex;
+        
+        
+    }
+    .first .navbar .words{
+        display: flex;
+    }
+
+    .first .navbar .words button {
+        margin-left: 120px;
+    }
+     
+    .first .content .colsa{
+        margin-left: 200px;
+        margin-top: 0;
+    
+    }
+    .first .content .suz{
+        margin-left: 30px;
+    }
+    .first .content .suz p{
+        padding-left: 0;
+    }
+    .first .content .suz{
+        text-align: center;
+    }
+    .second .round{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .second .round .glob{
+        margin-left: 20px;
+    }
+
+    .second .nom .three{
+        display: block;
+        margin-left: 0;
+        margin-top: 120px;
+    }
+
+    .second .nom .three .box{
+        margin-bottom: 80px;
+    }
+
+    .second .nom .doc{
+        margin-top: 100px;
+    }
+    
+    .second .nom .doc h2{
+        margin-bottom: 0;
+        font-size: 27px;
+    }
+    .second .nom .doc p{
+        margin-bottom: 60px;
+        font-size: 14px;
+        
+    }
+    .fnish{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fnish .letter{
+        display: flex;
+        justify-content: space-around;
+       
+    }
+
+    .fnish .letter .son{
+        margin-left: 10px;
+    }
+    .fnish .icon{
+        margin-left: 150px;
+    }
+
+}
+
+/* ================mediya 415px=============================== */
+@media(max-width:415px){
+    .first .navbar{
+        display: block;
+        padding: 0;
+    }
+    .first .navbar .logo{
+        margin-left: 100px;
+    }
+    .first .navbar .words ul{
+        display: flex;
+        
+        
+    }
+    .first .navbar .words{
+        display: flex;
+    }
+
+    .first .navbar .words button {
+        margin-left: 10px;
+    }
+     
+    .first .content .colsa{
+        margin-left: 120px;
+        margin-top: 0;
+    
+    }
+    .first .content .suz{
+        margin-left: 30px;
+    }
+    .first .content .suz p{
+        padding-left: 0;
+    }
+    .first .content .suz{
+        text-align: center;
+    }
+
+    .second .suzlar .suz2{
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .second .round{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: 80px;
+    }
+    .second .round .glob{
+        width: 80%;
+        margin-bottom: 15px;
+    }
+
+    .second .nom .three{
+        display: block;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .second .nom .three .box{
+        margin-top: 50px;
+        
+    }
+    .second .nom .doc .nik{
+        
+    }
+
+
+    .second .nom .doc{
+        margin-top: 100px;
+    }
+
+    
+    
+    .second .nom .doc .nik h2{
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    .second .nom .doc .nik p{
+        margin-bottom: 90px;
+        font-size: 9px;
+        text-align: start;
+    }
+
+    .fnish .letter{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 85;
+    }
+    .fnish .letter .son{
+        margin-left: 50px;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .fnish .letter .son p{
+        margin-bottom: 10px;
+    }
+    .fnish .letter .son h3 {
+        margin-bottom: 0;
+    }
+    .fnish .icon{
+        margin-left: 60px;
+    }
+    .fnish .icon .wor{
+        margin-bottom: 20px;
+    }
+    
+}
